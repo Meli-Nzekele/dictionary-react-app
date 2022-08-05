@@ -1,39 +1,41 @@
-.Dictionary section {
+.Dictionary {
   background: #fff;
   padding: 30px;
   margin: 20px 0;
 }
 
 .Dictionary input {
-  width: 100%;
+  width: 60%;
   border-radius: 0.2 solid #ced4da;
+  margin: 10px 0;
 }
 
-.Dictionary input,
-.icon {
-  border-radius: 6px;
+input:placeholder-shown {
+  font-style: italic;
 }
 
-.Dictionary .hint {
-  font-size: 11px;
-  margin-top: 5px;
+/* clears the 'X' from Internet Explorer 
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
 }
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}*/
 
-.icon {
-  margin-left: 10px;
-}
-
-.Search-btn {
-  outline: none;
-  border-style: none;
-}
+/* clears the 'X' from Chrome 
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}*/
 
 .form-control:focus {
   border-color: #ced4da;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(255, 255, 255, 0);
-}
-
-input::-ms-clear {
-  display: none;
 }

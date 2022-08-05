@@ -8,7 +8,7 @@ export default function Phonetic(props) {
     event.preventDefault();
   }
   return (
-    <div className="Phonetic">
+    <div className="Phonetic mb-4">
       <ReactAudioPlayer
         className="mt-3 mb-2"
         src={props.phonetic.audio}

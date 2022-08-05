@@ -1,7 +1,9 @@
 .AppHeader {
+  color: #c34e53;
   font-size: 64px;
   font-weight: bold;
   text-align: center;
+  margin: 20px 0;
 }
 
 .Footer {
@@ -19,4 +21,10 @@
 .Footer a:hover {
   font-size: 10.5px;
   text-decoration: none;
+}
+
+.Results,
+.Photos {
+  background-color: white;
+  padding: 50px 8% 0 8%;
 }

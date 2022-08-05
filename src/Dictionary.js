@@ -52,17 +52,12 @@ export default function Dictionary(props) {
           <form onSubmit={handleSubmit}>
             <div className="input-icons d-flex justify-content-center">
               <input
-                class="form-control input-field"
+                className="form-control input-field"
                 type="search"
                 onChange={handleKeywordChange}
-                placeholder=" suggested words:  Yoga, Flower, Moon..."
+                placeholder=" Example:   Yoga, Flower, Moon..."
                 aria-label="default input example"
               ></input>
-              <span className="icon">
-                <button type="submit" className="btn Search-btn">
-                  <i className="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </span>{" "}
             </div>
           </form>
         </div>
