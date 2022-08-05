@@ -1,20 +1,39 @@
 .Dictionary section {
   background: #fff;
   padding: 30px;
-  border-radius: 6px;
-  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
   margin: 20px 0;
 }
 
 .Dictionary input {
-  color: #000;
   width: 100%;
+  border-radius: 0.2 solid #ced4da;
+}
+
+.Dictionary input,
+.icon {
   border-radius: 6px;
-  padding: 6px 4px;
-  border: 1px solid #000;
 }
 
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.Search-btn {
+  outline: none;
+  border-style: none;
+}
+
+.form-control:focus {
+  border-color: #ced4da;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(255, 255, 255, 0);
+}
+
+input::-ms-clear {
+  display: none;
 }

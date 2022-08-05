@@ -5,7 +5,7 @@ import Photos from "./Photos";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState(props.defaultKeyword);
+  let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -47,16 +47,25 @@ export default function Dictionary(props) {
 
   if (loaded) {
     return (
-      <div className="Dictionary">
-        <section>
+      <div className="Dictionary mt-4">
+        <div className="container">
           <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              onChange={handleKeywordChange}
-              placeholder="Enter your word"
-            />
+            <div className="input-icons d-flex justify-content-center">
+              <input
+                class="form-control input-field"
+                type="search"
+                onChange={handleKeywordChange}
+                placeholder=" suggested words:  Yoga, Flower, Moon..."
+                aria-label="default input example"
+              ></input>
+              <span className="icon">
+                <button type="submit" className="btn Search-btn">
+                  <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </span>{" "}
+            </div>
           </form>
-        </section>
+        </div>
 
         <Results results={results} />
         <Photos photos={photos} />

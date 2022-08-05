@@ -1,3 +1,9 @@
+.AppHeader {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .Footer {
   font-size: 10px;
   text-align: center;

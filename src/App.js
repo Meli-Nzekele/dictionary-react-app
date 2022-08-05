@@ -6,10 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <div className="AppHeader mt-5">
+          <header>Dictionary</header>
+        </div>
         <main>
-          <Dictionary defaultKeyword="example" />
+          <Dictionary />
         </main>
-        <footer className="Footer mt-3">
+        <footer className="Footer mt-3 mb-3">
           This App was built by
           <a
             href="https://incandescent-tapioca-00054a.netlify.app/"
