@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="example" />
         </main>
         <footer className="Footer mt-3">
           This App was built by
