@@ -13,11 +13,10 @@ export default function Photos(props) {
                   href={photo.src.original}
                   target="_blank"
                   rel="noreferrer"
-                  alt="photos"
                 ></a>
                 <img
                   src={photo.src.landscape}
-                  alt="Photos"
+                  alt={photo.alt}
                   className="img-fluid"
                 />
               </div>
