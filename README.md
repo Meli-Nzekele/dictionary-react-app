@@ -1,3 +1,20 @@
+<img src="https://www.shecodes.io/assets/products/logos/workshop_pro-4e0fcd67234d8068f4b8cb28186c58a838d7162295f7d28abf83b778fc7b4c9f.png" title="SheCodes PRO" alt="SheCodes PRO" width="200" height="50"/>&nbsp;
+
+# SheCodes Pro - Dictionary React App
+
+Final project (2) created during the [SheCodes PRO workshop](https://www.shecodes.io/workshop-pro) using HTML, CSS, Javascript, React.js, [Free Dictionary API](https://dictionaryapi.dev/) and hosted using Netlify. 
+
+###### Languages and Tools... 
+
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="30" height="30"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="30" height="30"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="30" height="30"/>&nbsp;
+   <img src="https://www.shecodes.io/assets/logos/technologies/api-2c51a0e435d71436f197dbc33a1c52716491a482f87c9d229504bbeada6a516c.png" title="API" alt="API" width="30" height="30"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="VSCode" alt="VSCode" width="30" height="30"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="30" height="30"/>&nbsp;
+  <img src="https://www.shecodes.io/assets/logos/technologies/responsive-bb3ce4b4a67108b0c547648b0b9da19711e8a30cb94626ebe2cf80697119e807.png" title="Responsive" alt="Responsive" width="30" height="30"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="30" height="30"/>&nbsp;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
